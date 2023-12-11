@@ -16,7 +16,7 @@ public class HomeController {
 	
 	private static final Logger logger = LoggerFactory.getLogger(HomeController.class);
 	
-	// IU ZZANG WINTER ZZANG KARINA ZZANG - 리포지토리에서 직접 수정
+	// IU ZZANG WINTER ZZANG KARINA ZZANG - 리포지토리에서 직접 수정(로컬에서 수정)
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String home(Locale locale, Model model) {
 		logger.info("Welcome home! The client locale is {}.", locale);
